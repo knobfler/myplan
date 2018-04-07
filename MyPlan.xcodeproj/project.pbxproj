@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29509356219072259F3405CF /* Pods_MyPlan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8844DCE5491D55B9698B767 /* Pods_MyPlan.framework */; };
 		DA0E4B1320753AB2005BD6DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0E4B1220753AB2005BD6DD /* AppDelegate.swift */; };
-		DA0E4B1520753AB2005BD6DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0E4B1420753AB2005BD6DD /* ViewController.swift */; };
-		DA0E4B1820753AB2005BD6DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0E4B1620753AB2005BD6DD /* Main.storyboard */; };
 		DA0E4B1A20753AB2005BD6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0E4B1920753AB2005BD6DD /* Assets.xcassets */; };
 		DA0E4B1D20753AB2005BD6DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0E4B1B20753AB2005BD6DD /* LaunchScreen.storyboard */; };
+		DA0E4B2620753B22005BD6DD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0E4B2520753B22005BD6DD /* MainViewController.swift */; };
+		DA0E4B2820753DEF005BD6DD /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0E4B2720753DEF005BD6DD /* AddViewController.swift */; };
+		DA3A5E502078936800D5DEA0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3A5E4F2078936800D5DEA0 /* LoginViewController.swift */; };
+		DA432B0320789ABA00DBBAA4 /* SharedAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA432B0220789ABA00DBBAA4 /* SharedAuth.swift */; };
+		DACDEC5C2075434C00271D33 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDEC5B2075434C00271D33 /* CalendarViewController.swift */; };
+		DACDEC5F2075488700271D33 /* EndCalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDEC5E2075488700271D33 /* EndCalenderViewController.swift */; };
+		DACDEC6120754F9A00271D33 /* SharedCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACDEC6020754F9A00271D33 /* SharedCalendar.swift */; };
+		DAD2D0CF2077014400101E19 /* PlanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD2D0CE2077014400101E19 /* PlanCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2592A25DFA7908A50D508659 /* Pods-MyPlan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPlan/Pods-MyPlan.debug.xcconfig"; sourceTree = "<group>"; };
+		9F3C2CB0FC5816E953059F50 /* Pods-MyPlan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlan.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPlan/Pods-MyPlan.release.xcconfig"; sourceTree = "<group>"; };
 		DA0E4B0F20753AB2005BD6DD /* MyPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0E4B1220753AB2005BD6DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA0E4B1420753AB2005BD6DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA0E4B1720753AB2005BD6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA0E4B1920753AB2005BD6DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA0E4B1C20753AB2005BD6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA0E4B1E20753AB2005BD6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA0E4B2520753B22005BD6DD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DA0E4B2720753DEF005BD6DD /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		DA3A5E4F2078936800D5DEA0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DA432B0220789ABA00DBBAA4 /* SharedAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedAuth.swift; sourceTree = "<group>"; };
+		DACDEC5B2075434C00271D33 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		DACDEC5E2075488700271D33 /* EndCalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndCalenderViewController.swift; sourceTree = "<group>"; };
+		DACDEC6020754F9A00271D33 /* SharedCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedCalendar.swift; sourceTree = "<group>"; };
+		DAD2D0CE2077014400101E19 /* PlanCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanCollectionViewCell.swift; sourceTree = "<group>"; };
+		E8844DCE5491D55B9698B767 /* Pods_MyPlan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPlan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29509356219072259F3405CF /* Pods_MyPlan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FFEE6E219BD9BA3B9DC7013 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2592A25DFA7908A50D508659 /* Pods-MyPlan.debug.xcconfig */,
+				9F3C2CB0FC5816E953059F50 /* Pods-MyPlan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA0E4B0620753AB2005BD6DD = {
 			isa = PBXGroup;
 			children = (
 				DA0E4B1120753AB2005BD6DD /* MyPlan */,
 				DA0E4B1020753AB2005BD6DD /* Products */,
+				5FFEE6E219BD9BA3B9DC7013 /* Pods */,
+				F83AA1FA123386C50AC8F57C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +83,59 @@
 			isa = PBXGroup;
 			children = (
 				DA0E4B1220753AB2005BD6DD /* AppDelegate.swift */,
-				DA0E4B1420753AB2005BD6DD /* ViewController.swift */,
-				DA0E4B1620753AB2005BD6DD /* Main.storyboard */,
+				DA0E4B2420753B0C005BD6DD /* ViewControllers */,
 				DA0E4B1920753AB2005BD6DD /* Assets.xcassets */,
 				DA0E4B1B20753AB2005BD6DD /* LaunchScreen.storyboard */,
 				DA0E4B1E20753AB2005BD6DD /* Info.plist */,
 			);
 			path = MyPlan;
+			sourceTree = "<group>";
+		};
+		DA0E4B2420753B0C005BD6DD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA432B0120789AAA00DBBAA4 /* Auth */,
+				DA3A5E4F2078936800D5DEA0 /* LoginViewController.swift */,
+				DA0E4B2520753B22005BD6DD /* MainViewController.swift */,
+				DA0E4B2720753DEF005BD6DD /* AddViewController.swift */,
+				DAD2D0CD2077012900101E19 /* Cells */,
+				DACDEC5D2075482100271D33 /* Calender */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DA432B0120789AAA00DBBAA4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				DA432B0220789ABA00DBBAA4 /* SharedAuth.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		DACDEC5D2075482100271D33 /* Calender */ = {
+			isa = PBXGroup;
+			children = (
+				DACDEC5B2075434C00271D33 /* CalendarViewController.swift */,
+				DACDEC5E2075488700271D33 /* EndCalenderViewController.swift */,
+				DACDEC6020754F9A00271D33 /* SharedCalendar.swift */,
+			);
+			path = Calender;
+			sourceTree = "<group>";
+		};
+		DAD2D0CD2077012900101E19 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DAD2D0CE2077014400101E19 /* PlanCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F83AA1FA123386C50AC8F57C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8844DCE5491D55B9698B767 /* Pods_MyPlan.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA0E4B2120753AB2005BD6DD /* Build configuration list for PBXNativeTarget "MyPlan" */;
 			buildPhases = (
+				825A6391503B0E4AE539A8B7 /* [CP] Check Pods Manifest.lock */,
 				DA0E4B0B20753AB2005BD6DD /* Sources */,
 				DA0E4B0C20753AB2005BD6DD /* Frameworks */,
 				DA0E4B0D20753AB2005BD6DD /* Resources */,
+				B94CCA8663CDC9F8F52C3AA3 /* [CP] Embed Pods Frameworks */,
+				76E58A6712CC6375D8DB10A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,33 +202,87 @@
 			files = (
 				DA0E4B1D20753AB2005BD6DD /* LaunchScreen.storyboard in Resources */,
 				DA0E4B1A20753AB2005BD6DD /* Assets.xcassets in Resources */,
-				DA0E4B1820753AB2005BD6DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76E58A6712CC6375D8DB10A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPlan/Pods-MyPlan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		825A6391503B0E4AE539A8B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPlan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B94CCA8663CDC9F8F52C3AA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyPlan/Pods-MyPlan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyPlan/Pods-MyPlan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA0E4B0B20753AB2005BD6DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA0E4B1520753AB2005BD6DD /* ViewController.swift in Sources */,
+				DACDEC5F2075488700271D33 /* EndCalenderViewController.swift in Sources */,
+				DACDEC5C2075434C00271D33 /* CalendarViewController.swift in Sources */,
+				DA432B0320789ABA00DBBAA4 /* SharedAuth.swift in Sources */,
 				DA0E4B1320753AB2005BD6DD /* AppDelegate.swift in Sources */,
+				DA0E4B2620753B22005BD6DD /* MainViewController.swift in Sources */,
+				DA3A5E502078936800D5DEA0 /* LoginViewController.swift in Sources */,
+				DACDEC6120754F9A00271D33 /* SharedCalendar.swift in Sources */,
+				DAD2D0CF2077014400101E19 /* PlanCollectionViewCell.swift in Sources */,
+				DA0E4B2820753DEF005BD6DD /* AddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DA0E4B1620753AB2005BD6DD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA0E4B1720753AB2005BD6DD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DA0E4B1B20753AB2005BD6DD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,11 +403,13 @@
 		};
 		DA0E4B2220753AB2005BD6DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2592A25DFA7908A50D508659 /* Pods-MyPlan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S2R3M45L8;
 				INFOPLIST_FILE = MyPlan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dpaulb.MyPlan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +420,13 @@
 		};
 		DA0E4B2320753AB2005BD6DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3C2CB0FC5816E953059F50 /* Pods-MyPlan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5S2R3M45L8;
 				INFOPLIST_FILE = MyPlan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dpaulb.MyPlan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
